@@ -1,0 +1,11 @@
+<group name="alienvault,">
+<rule id="100080" level="12">
+  <location>alienvault</location>
+  <description>AlienVault OTX -Indicator(s) Found</description>
+  <mitre>
+   <id>T1036</id>
+  </mitre>
+  <options>no_full_log</options>
+  <group>otx_ioc,</group>
+</rule>
+</group>
